@@ -253,6 +253,10 @@ nav ul li:hover {
     flex-direction: column;
     width: 80%;
   }
+
+  #archieves {
+    min-height: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -281,6 +285,13 @@ nav ul li:hover {
 
   .cards {
     width: 90%;
+  }
+
+  .archieves__lists {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    gap: 3rem;
   }
 }
 /* responsiveness ends here  */
