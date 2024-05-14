@@ -1,153 +1,239 @@
 /* reset code and common starts here */
 :root {
-
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-    outline: none;
-    font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  font-weight: 400;
 }
 
 html {
-    background-color: #fafafa;
-    scroll-behavior: smooth;
-    font-size: 62.5%; /* here 1rem = 10px  */
-    font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+  scroll-behavior: smooth;
+  font-size: 62.5%; /* here 1rem = 10px  */
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-        background-color: #fff;
-        width: 100rem;
-        max-width: 100%;
-        margin: auto;
-        box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, 
-        -0.1rem 0rem 0.1rem #c4c4c4; 
+  background-color: #fff;
+  width: 100rem;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
 }
 
 .text-justify {
-    text-align: justify;
+  text-align: justify;
 }
 
 .text-color {
-    color: white;
+  color: white;
+}
+
+.section-center {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.section-heading {
+  font-size: 6rem;
+  text-align: center;
+  font-family: "Italiano", cursive;
 }
 /* reset code and common ends here */
 
 /* header starts here  */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    color: white;
-    padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 2rem 1rem;
 
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    min-height: 5vh;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  min-height: 5vh;
 }
 
 .logo-figure {
-    border: 1px solid #fff;
-    font-size: 4rem;
+  border: 1px solid #fff;
+  font-size: 4rem;
 }
 
 nav ul {
-    display: flex;
-    gap: 2rem;
+  display: flex;
+  gap: 2rem;
 }
 
 nav ul li {
-    padding: 1rem;
-    transition: all 0.4s;
+  padding: 1rem;
+  transition: all 0.4s;
 }
 
 nav ul li:hover {
-    background-color: brown;
-    border: 0.6rem;
+  background-color: brown;
+  border: 0.6rem;
 }
 
 .nav__link {
-    font-size: 1.8rem;
-    color: #fff;
-    cursor: pointer;
+  font-size: 1.8rem;
+  color: #fff;
+  cursor: pointer;
 }
 /* header ends here  */
 
 /* blog-banner section starts here */
 .banner {
-    padding: 5rem 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 95vh;
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
 }
 
 .banner article {
-    flex-basis: 50%;
-    margin: 1rem;
+  flex-basis: 50%;
+  margin: 1rem;
 }
 
 .banner__heading {
-    display: inline-block;
-    padding: 1rem;
-    background-color: black;
-    color: white;
-    margin-bottom: 1.5rem;
+  display: inline-block;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 4rem;
 }
 
 .banner_description {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .banner aside {
-    flex-basis: 50%;
-    text-align: center;
+  flex-basis: 50%;
+  text-align: center;
 }
 
 .banner__image {
-    width: 55rem;
-    height: 55rem;
-    border: 0.3rem solid;
+  width: 55rem;
+  height: 55rem;
+  border: 0.3rem solid;
 }
 /* blog-banner section ends here */
 
+/* about-me section starts here */
+#blog-about {
+  background-color: #4c4c4c;
+}
 
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 
+.card {
+  flex: 1;
+  border-radius: 0.6rem;
+  background-color: #a09d9d;
+  padding: 3rem 1rem;
+  margin: 2rem;
+  display: flex;
+  gap: 0.6rem;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s;
+}
 
+.card:hover {
+  transform: scale(1.1);
+}
 
+.card__header {
+  font-size: 3rem;
+}
 
+.card__description {
+  padding: 0.4rem 0;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
 
+.btn {
+  background-color: rgb(230, 169, 8);
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  box-shadow: 0.1rem 0.1rem 0.1rem #222;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.card__btn {
+  width: 80%;
+}
+/* about-me section ends here */
 
 /* responsiveness starts here  */
 @media screen and (max-width: 992px) {
-    
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    html {
-        font-size: 55.5%;
-    }
+  html {
+    font-size: 55.5%;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner article {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    html {
-        font-size: 48.5%;
-    }
+  html {
+    font-size: 48.5%;
+  }
 
-    header {
-        flex-direction: column;
-    }
+  header {
+    flex-direction: column;
+  }
 
-    nav ul {
-        flex-direction: column;
-        padding-left: 2.5rem;
-    }
+  nav ul {
+    flex-direction: column;
+    padding-left: 2.5rem;
+  }
+
+  .banner {
+    min-height: auto;
+    width: 90%;
+    max-width: 100%;
+  }
 }
 /* responsiveness ends here  */
