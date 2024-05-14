@@ -28,6 +28,14 @@ body {
         box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, 
         -0.1rem 0rem 0.1rem #c4c4c4; 
 }
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-color {
+    color: white;
+}
 /* reset code and common ends here */
 
 /* header starts here  */
@@ -71,6 +79,51 @@ nav ul li:hover {
     cursor: pointer;
 }
 /* header ends here  */
+
+/* blog-banner section starts here */
+.banner {
+    padding: 5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+
+.banner article {
+    flex-basis: 50%;
+    margin: 1rem;
+}
+
+.banner__heading {
+    display: inline-block;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.banner_description {
+    font-size: 1.5rem;
+}
+
+.banner aside {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.banner__image {
+    width: 55rem;
+    height: 55rem;
+    border: 0.3rem solid;
+}
+/* blog-banner section ends here */
+
+
+
+
+
+
+
 
 /* responsiveness starts here  */
 @media screen and (max-width: 992px) {
