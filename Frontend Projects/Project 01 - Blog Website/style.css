@@ -214,6 +214,11 @@ nav ul li:hover {
   .banner article {
     width: 80%;
   }
+
+  .cards {
+    flex-direction: column;
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -234,6 +239,14 @@ nav ul li:hover {
     min-height: auto;
     width: 90%;
     max-width: 100%;
+  }
+
+  #blog-about {
+    min-height: auto;
+  }
+
+  .cards {
+    width: 90%;
   }
 }
 /* responsiveness ends here  */
