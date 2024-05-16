@@ -234,6 +234,7 @@ nav ul li:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 
 .blog-post {
@@ -280,7 +281,6 @@ nav ul li:hover {
   width: 30%;
 }
 
-
 /* blog-post section ends here */
 
 /* responsiveness starts here  */
@@ -319,6 +319,11 @@ nav ul li:hover {
   #archieves {
     min-height: auto;
   }
+
+  .blog-post {
+    width: 80%;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -354,6 +359,10 @@ nav ul li:hover {
     flex-direction: column;
     width: 90%;
     gap: 3rem;
+  }
+
+  .blog-post {
+    width: 90%;
   }
 }
 /* responsiveness ends here  */
