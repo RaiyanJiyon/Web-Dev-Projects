@@ -378,6 +378,10 @@ textarea {
     width: 80%;
     flex-direction: column;
   }
+
+  #contact-section {
+    min-height: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -417,6 +421,19 @@ textarea {
 
   .blog-post {
     width: 90%;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-control > input, textarea {
+    margin-bottom: 0.5rem;
   }
 }
 /* responsiveness ends here  */
