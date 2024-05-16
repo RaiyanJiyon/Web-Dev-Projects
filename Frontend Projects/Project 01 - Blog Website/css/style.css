@@ -79,6 +79,11 @@ header {
   font-size: 4rem;
 }
 
+#bar {
+  display: none;
+  margin: 2rem 0;
+}
+
 nav ul {
   display: flex;
   gap: 2rem;
@@ -431,6 +436,10 @@ textarea {
     flex-direction: column;
   }
 
+  #bar {
+    display: block;
+  }
+  
   nav ul {
     flex-direction: column;
     padding-left: 2.5rem;
@@ -444,6 +453,10 @@ textarea {
 
   #blog-about {
     min-height: auto;
+  }
+  
+  .hidden {
+    display: none;
   }
 
   .cards {
