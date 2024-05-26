@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #ffffff;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+    
+}
+
+.header .logo img {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.sign-in {
+    width: 75px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+
+.sign-in:hover {
+    cursor: pointer;
+    background-color: #C11119;
+}
+
+.hero {
+    position: relative;
+    /* background: url('images/background.jpg') no-repeat center center/cover; */
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 200px 0;
+}
+
+.hero-content h1 {
+    margin: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    line-height: normal;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.hero-content p {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    line-height: normal;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.hero .get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 40px 0;
+}
+
+.hero #email {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #292934;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 400px;
+    height: 30px;
+}
+
+.hero #email::placeholder {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #e50914;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: bolder;
+    line-height: 24px;
+}
+
+.gap {
+    width: 100vw;
+    background-color: #232323;
+    height: 10px;
+}
