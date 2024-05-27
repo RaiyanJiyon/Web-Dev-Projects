@@ -12,28 +12,37 @@ body {
   padding: 0;
 }
 
-/* front page section design start here  */
+.background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url("images/background.jpg") no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Header Section */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #141414;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
 }
 
 .header .logo img {
   width: 150px;
-  margin-left: 10px;
 }
 
 .sign-in {
   width: 75px;
-  height: 35px;
+  height: 32px;
   background-color: red;
   color: white;
-  font-weight: bolder;
+  font-weight: bold;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
+  margin-right: 30px;
   padding: 5px;
   font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
     sans-serif;
@@ -47,15 +56,16 @@ body {
   background-color: #c11119;
 }
 
+/* Hero Section */
 .hero {
-  position: relative;
-  /* background: url('images/background.jpg') no-repeat center center/cover; */
-  height: 50vh;
+  flex-grow: 1; /* Ensure the hero section takes up available space */
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
-  margin: 200px 0;
+  background: rgba(0, 0, 0, 0.7); /* Apply a semi-transparent background */
+  padding: 60px 20px;
 }
 
 .hero-content h1 {
@@ -63,9 +73,7 @@ body {
   font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
     sans-serif;
   font-size: 48px;
-  color: rgb(255, 255, 255);
-  line-height: normal;
-  font-style: normal;
+  color: #ffffff;
   font-weight: 900;
 }
 
@@ -73,10 +81,9 @@ body {
   font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
     sans-serif;
   font-size: 24px;
-  color: rgb(255, 255, 255);
-  line-height: normal;
-  font-style: normal;
+  color: #ffffff;
   font-weight: 500;
+  margin: 20px 0;
 }
 
 .hero .get-started {
@@ -428,12 +435,12 @@ body {
 .footer a {
   margin: 0 40px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
   font-weight: 400;
   font-size: 15px;
   font-style: normal;
   line-height: normal;
-  
 }
 
 .footer .footer-first {
@@ -468,7 +475,8 @@ body {
   border-radius: 5px;
   background-color: #0f0f0f;
   color: white;
-  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
   font-weight: bolder;
   font-size: 16px;
   line-height: 20px;
@@ -480,7 +488,8 @@ body {
 }
 
 .footer p {
-  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
   font-style: normal;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
