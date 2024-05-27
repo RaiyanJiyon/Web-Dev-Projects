@@ -422,56 +422,43 @@ body {
   background-color: #141414;
   text-align: center;
   width: 100vw;
-  height: 70vh;
+  height: auto; /* Adjust height to auto */
 }
 
 .footer a {
+  margin: 0 40px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
-    sans-serif;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
   font-weight: 400;
   font-size: 15px;
   font-style: normal;
   line-height: normal;
+  
 }
 
 .footer .footer-first {
   text-align: left;
-  margin: 30px 10px;
+  margin: 20px 0;
 }
 
-.footer .footer-second {
+.footer-links {
   display: flex;
-  gap: 220px;
-  justify-content: flex-start;
-  margin: 20px 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
 }
 
-.footer .footer-third {
+.footer-column {
   display: flex;
-  gap: 150px;
-  justify-content: flex-start;
-  margin: 20px 10px;
-}
-
-.footer .footer-fourth {
-  display: flex;
-  gap: 150px;
-  justify-content: flex-start;
-  margin: 20px 10px;
-}
-
-.footer .footer-fifth {
-  display: flex;
-  gap: 150px;
-  justify-content: flex-start;
-  margin: 20px 10px;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
 }
 
 .footer .translator {
   display: flex;
   justify-content: flex-start;
-  margin: 10px 10px;
+  margin: 0 40px;
 }
 
 .footer .translator button {
@@ -481,8 +468,7 @@ body {
   border-radius: 5px;
   background-color: #0f0f0f;
   color: white;
-  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
-    sans-serif;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
   font-weight: bolder;
   font-size: 16px;
   line-height: 20px;
@@ -490,12 +476,11 @@ body {
 
 .footer .netflix-bd {
   text-align: left;
-  margin: 20px 10px;
+  margin: 20px 40px;
 }
 
 .footer p {
-  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
-    sans-serif;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
   font-style: normal;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
