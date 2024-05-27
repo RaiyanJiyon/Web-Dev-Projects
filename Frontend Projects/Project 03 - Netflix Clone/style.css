@@ -307,7 +307,113 @@ body {
   line-height: normal;
 }
 /* content cartoon-section design ends here  */
+/* Set width and height for each faq-item */
+.questions__div-section .faq-item {
+  width: 90vw; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  background-color: #2e2d2d;
+}
 
+.questions__div-section .faq-item:hover {
+  background-color: #2d2d2d;
+  cursor: pointer;
+}
+
+/* Center everything in the .questions-section */
+.questions-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.questions__content-section {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  line-height: normal;
+}
+
+/* email section starts  */
+.email-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.email__content-section p {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  line-height: normal;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.email__get-started {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 0;
+}
+
+.email__get-started #email {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #292934;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 400px;
+  height: 30px;
+}
+
+.email__get-started #email::placeholder {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.email__get-started .email__btn {
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #e50914;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  font-weight: bolder;
+  line-height: 24px;
+}
 /* content section design ends here  */
 
 /* footer section design start here  */
