@@ -272,8 +272,43 @@ body {
 }
 /* content watch-section design ends here  */
 
-/* content section design ends here  */
+/* content cartoon-section design starts here  */
+.cartoon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.cartoon__img-section img {
+  width: 550px;
+}
+
+.cartoon__content-section {
+  margin: 0 30px;
+}
+
+.cartoon__content-section h1 {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  line-height: normal;
+}
+
+.cartoon__content-section p {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  line-height: normal;
+}
+/* content cartoon-section design ends here  */
+
+/* content section design ends here  */
 
 /* footer section design start here  */
 .footer {
