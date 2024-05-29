@@ -9,9 +9,14 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* header styles */
 header {
   background-color: #030617;
   color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  min-height: 5vh;
 }
 
 nav {
@@ -28,6 +33,10 @@ nav {
 
 .logo-text span {
   color: #e63946;
+}
+
+.logo-text:hover {
+  cursor: pointer;
 }
 
 ul {
@@ -51,4 +60,102 @@ a:hover {
   background-color: #e63946;
   color: #fff;
   border-radius: 4px;
+}
+
+/* main styles */
+main {
+  background-color: #171717;
+  color: #fff;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.introduction-content {
+  max-width: 50%;
+  /* margin-top: 100px; */
+  margin-left: 50px;
+}
+
+.introduction-content p:nth-child(1) {
+  font-family: "Lexend Deca", serif;
+  font-style: normal;
+  font-weight: 300;
+  color: rgb(234, 179, 8);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.introduction-content h1 {
+  font-family: "Lexend Deca", serif;
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-size: 63px;
+  line-height: 76px;
+}
+
+.introduction-content p:nth-child(3) {
+  font-family: "Lexend Deca", serif;
+  font-style: normal;
+  font-weight: 300;
+  color: rgb(115, 115, 115);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.btn {
+  font-family: "Lexend Deca", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(10, 10, 10);
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #c9a129;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #edbe2d;
+  cursor: pointer;
+}
+
+/* Profile Picture Styles */
+.introduction-profile-picture {
+  position: relative;
+  max-width: 40%;
+  /* margin-top: 100px; */
+}
+
+.square-shape {
+  position: relative;
+}
+
+.square-shape img {
+  width: 100%;
+  height: auto;
+}
+
+.profile-picture {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border: 4px solid #ffba08;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
