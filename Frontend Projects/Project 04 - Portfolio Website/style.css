@@ -303,3 +303,66 @@ main {
   line-height: 24px;
   text-align: center;
 }
+
+/* portfolio section start */
+.portfolio {
+  background-color: #0A0A0A;
+  padding: 50px 20px;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.portfolio-logo-text {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.portfolio-logo-text span {
+  color: #e63946;
+}
+
+.portfolio-text {
+  font-family: "Lexend Deca", serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #737373;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 20px;
+}
+
+.portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.portfolio-images img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-images img:hover {
+  transform: scale(1.05);
+}
+
+.row-image,
+.column-image {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
