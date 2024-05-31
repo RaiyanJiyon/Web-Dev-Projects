@@ -580,3 +580,59 @@ main {
   background-color: #edbe2d;
   cursor: pointer;
 }
+
+/* footer section starts  */
+footer {
+  margin-top: auto;
+  background-color: #171717;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-me-content {
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-me-logo-text {
+  font-family: "Lexend Deca", serif;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 42px;
+  line-height: 38px;
+}
+
+.footer-me-logo-text span {
+  color: #f39c12;
+}
+
+.contact-me-text {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-media-icons a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-media-icons a:hover {
+  color: #ccc;
+}
