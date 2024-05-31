@@ -366,3 +366,87 @@ main {
   flex-direction: column;
   gap: 20px;
 }
+
+/* resume section start  */
+.resume {
+  height: 600px;
+  padding: 60px;
+  background-color: #171717;
+}
+
+.resume-content {
+  margin: 60px 50px;
+}
+
+.resume-logo-text {
+  font-style: normal;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: bold;
+}
+
+.resume-logo-text span {
+  color: #e63946;
+}
+
+.resume-content p {
+  font-family: "Lexend Deca", serif;
+  font-style: normal;
+  font-weight: 300;
+  color: rgb(115, 115, 115);
+  font-size: 16px;
+  line-height: 24px;
+  width: 470px;
+}
+
+.resume-skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.skill2-container {
+  width: 300px;
+  height: 350px;
+  border: none;
+  border-radius: 6px;
+  background-color: #262626;
+}
+
+.skill2-container h2 {
+  font-family: "Lexend Deca", serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #e63946;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 6px;
+  text-align: left;
+  margin: 30px 30px;
+}
+
+.skill2-container p:nth-child(1) {
+  font-family: "Lexend Deca", serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-align: left;
+  margin: 30px 30px;
+}
+
+.skill2-container p {
+  font-family: "Lexend Deca", serif;
+  font-style: normal;
+  font-weight: 300;
+  color: rgb(115, 115, 115);
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-align: left;
+  margin: 30px 30px;
+}
